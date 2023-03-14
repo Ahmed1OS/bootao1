@@ -1,0 +1,55 @@
+body{
+    position: relative;
+    height: auto;
+}
+
+#megs {
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.311);
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    height: 200px;
+    bottom: .25rem;
+
+}
+
+ .card-header {
+    font-size: 2rem;
+}
+.card img {
+    object-fit: cover;
+}
+
+
+
+.navbar ,.navbar-expand-sm {
+
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    backdrop-filter: blur(2px);
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#pin {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    z-index: 3;
+    
+}
+.f1x {
+    background-image: url('imgs/ar4.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    
+}
